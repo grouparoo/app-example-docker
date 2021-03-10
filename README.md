@@ -38,3 +38,7 @@ Learn more about deploying Grouparoo with Docker & Kubernetes @ https://www.grou
 curl -L https://www.grouparoo.com/docker-compose --output docker-compose.yml
 docker-compose up
 ```
+
+---
+
+Vist https://github.com/grouparoo/app-examples to see other Grouparoo Example Projects.
