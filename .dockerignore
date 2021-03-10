@@ -1,0 +1,7 @@
+.git*
+.github
+__tests__
+kube
+node_modules
+.env
+.env.example
