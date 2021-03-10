@@ -8,6 +8,8 @@ Goal: To create a scalable and flexible Grouparoo deployment that:
 - Will be automatically deployed when the code changes
 - Is a [12-factor app](https://12factor.net/) with all configuration stored in the Environment
 
+This repository contains examples of 2 ways to deploy a Dockerized application: `Docker Compose` and `Kubernetes via AWS EKS`.
+
 ## Repository Configuration
 
 1. Create a new Grouparoo project. Learn more @ https://www.grouparoo.com/docs/installation.
