@@ -30,7 +30,7 @@ Learn more about deploying Grouparoo with Docker & Kubernetes @ https://www.grou
 
 ## Notes
 
-- This repository is built automatically to the [`grouparoo/app-example-docker`]() image on Docker Hub
+- This repository is built automatically to the [`grouparoo/app-example-docker`](https://hub.docker.com/repository/docker/grouparoo/app-example-docker) image on Docker Hub
   - The `docker-compose.published.yml` included in this repository is linked to `https://www.grouparoo.com/docker-compose`
   - You can run the `docker-compose.published.yml` included in this repository with:
 
