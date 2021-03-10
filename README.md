@@ -41,4 +41,4 @@ docker-compose up
 
 ---
 
-Vist https://github.com/grouparoo/app-examples to see other Grouparoo Example Projects.
+Visit https://github.com/grouparoo/app-examples to see other Grouparoo Example Projects.
