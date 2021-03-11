@@ -42,9 +42,7 @@ To try Docker Compose deployment (assuming you already have Docker installed and
 
 Remember, all environment variables can be changed from their defaults, including database information, PORT, etc. All the environment variables have defaults, but you are expected to customize them.
 
-⚠️ DO NOT USE IN PRODUCTION! ⚠️
-
-> The example `docker-compose.yml` in this repository has no data persistence and also no load balancing between `grouparoo-web` instances
+⚠️ Note: The example `docker-compose.yml` in this repository has no data persistence and also no load balancing between `grouparoo-web` instances.  Do not use in production.
 
 ## Demo Docker Compose Deployment
 
