@@ -24,7 +24,7 @@ jobs:
         run: echo CORE_VERSION=`cat package.json | jq -r '.dependencies."@grouparoo/core"'` >> $GITHUB_ENV
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Updating Packages
+          commit_message: Updating Packages to v${{ env.CORE_VERSION }}
           commit_user_name: Grouparoo Bot
           commit_user_email: hello@grouparoo.com
           commit_author: Grouparoo Bot <hello@grouparoo.com>
