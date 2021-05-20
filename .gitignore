@@ -105,3 +105,6 @@ dist
 
 # Environment
 .env
+
+# sqlite files
+*.sqlite

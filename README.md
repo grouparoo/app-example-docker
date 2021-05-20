@@ -10,7 +10,7 @@ Goal: To create a scalable and flexible Grouparoo deployment that:
 
 This repository contains examples of 2 ways to deploy a Dockerized application: `Docker Compose` and `Kubernetes via AWS EKS`.
 
-## Repository Configuration
+## How we got here
 
 1. Create a new Grouparoo project. Learn more @ https://www.grouparoo.com/docs/installation.
 
@@ -23,6 +23,16 @@ grouparoo init .
 
 3. Create the `Dockerfile` per the example in this project. Learn more @ https://www.grouparoo.com/docs/installation/docker and by viewing the `Dockerfile` in this repository.
 4. (optional) Create the `docker-compose.yml`
+
+## Running this repo
+
+Assuming you have node.js installed (v12+):
+
+1. `git clone https://github.com/grouparoo/app-example-docker.git`
+2. `cd app-example-docker`
+3. `npm install`
+4. `cp .env.example .env`
+5. `npm start`
 
 ## Deployment with Docker Compose
 
@@ -42,7 +52,7 @@ To try Docker Compose deployment (assuming you already have Docker installed and
 
 Remember, all environment variables can be changed from their defaults, including database information, PORT, etc. All the environment variables have defaults, but you are expected to customize them.
 
-⚠️ Note: The example `docker-compose.yml` in this repository has no data persistence and also no load balancing between `grouparoo-web` instances.  Do not use in production.
+⚠️ Note: The example `docker-compose.yml` in this repository has no data persistence and also no load balancing between `grouparoo-web` instances. Do not use in production.
 
 ## Demo Docker Compose Deployment
 
