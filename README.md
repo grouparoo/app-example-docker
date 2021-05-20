@@ -26,13 +26,13 @@ grouparoo init .
 
 ## Running this repo
 
-Assuming you have node.js installed (v12+) and the Grouparoo CLI (npm install -g grouparoo):
+Assuming you have node.js installed (v12+):
 
 1. `git clone https://github.com/grouparoo/app-example-docker.git`
 2. `cd app-example-docker`
 3. `npm install`
 4. `cp .env.example .env`
-5. `grouparoo run`
+5. `npm start`
 
 ## Deployment with Docker Compose
 
