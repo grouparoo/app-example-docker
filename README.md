@@ -59,7 +59,7 @@ Remember, all environment variables can be changed from their defaults, includin
 You can quickly demo a Docker Compose Grouparoo deployment via:
 
 ```
-curl -L https://www.grouparoo.com/docker-compose --output docker-compose.yml
+curl https://raw.githubusercontent.com/grouparoo/app-example-docker/main/docker-compose.published.yml --output docker-compose.yml
 docker-compose up
 ```
 
@@ -132,11 +132,10 @@ When you created the EKS cluster, AWS also created an Elastic Load Balancer for 
 ## Notes
 
 - This repository is built automatically to the [`grouparoo/app-example-docker`](https://hub.docker.com/repository/docker/grouparoo/app-example-docker) image on Docker Hub
-  - The `docker-compose.published.yml` included in this repository is linked to `https://www.grouparoo.com/docker-compose`
   - You can run the `docker-compose.published.yml` included in this repository with:
 
 ```
-curl -L https://www.grouparoo.com/docker-compose --output docker-compose.yml
+curl https://raw.githubusercontent.com/grouparoo/app-example-docker/main/docker-compose.published.yml --output docker-compose.yml
 docker-compose up
 ```
 
