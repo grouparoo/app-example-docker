@@ -21,6 +21,7 @@ services:
 
   grouparoo-web:
     build: ./
+    image: grouparoo/local-image
     restart: always
     ports:
       - 3000:3000
@@ -39,13 +40,14 @@ services:
       - grouparoo_backend
 
   grouparoo-worker:
-    build: ./
+    image: grouparoo/local-image
+    depends_on: grouparoo-web
     restart: always
     environment:
       REDIS_URL: redis://redis:6379/0
       DATABASE_URL: postgresql://postgres:password@db:5432/grouparoo_docker
       WEB_SERVER: "false"
-      WORKERS: 10
+      WORKERS: 5
       SERVER_TOKEN: "default-server-token"
     depends_on:
       - db
