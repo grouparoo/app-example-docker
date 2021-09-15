@@ -9,7 +9,6 @@
     "@grouparoo/bigquery": "v0.6.2",
     "@grouparoo/core": "v0.6.2",
     "@grouparoo/csv": "v0.6.2",
-    "@grouparoo/files-s3": "v0.6.2",
     "@grouparoo/google-sheets": "v0.6.2",
     "@grouparoo/hubspot": "v0.6.2",
     "@grouparoo/logger": "v0.6.2",
@@ -32,7 +31,6 @@
     "plugins": [
       "@grouparoo/bigquery",
       "@grouparoo/csv",
-      "@grouparoo/files-s3",
       "@grouparoo/google-sheets",
       "@grouparoo/hubspot",
       "@grouparoo/logger",
