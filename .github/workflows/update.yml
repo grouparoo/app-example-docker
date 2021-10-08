@@ -13,12 +13,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.BOT_GITHUB_PAT }}
       - run: cp .env.example .env
       - run: npm install
       - run: sudo npm install -g npm-check-updates
-      - run: npm-check-updates -u
+      - run: npm-check-updates "/grouparoo/" -u
       - run: npm install
       - name: store-core-version
         run: echo CORE_VERSION=`cat package.json | jq -r '.dependencies."@grouparoo/core"'` >> $GITHUB_ENV
