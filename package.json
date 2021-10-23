@@ -6,22 +6,22 @@
   "license": "MPL-2.0",
   "private": true,
   "dependencies": {
-    "@grouparoo/bigquery": "v0.6.3",
-    "@grouparoo/core": "v0.6.3",
-    "@grouparoo/csv": "v0.6.3",
-    "@grouparoo/google-sheets": "v0.6.3",
-    "@grouparoo/hubspot": "v0.6.3",
-    "@grouparoo/logger": "v0.6.3",
-    "@grouparoo/mailchimp": "v0.6.3",
-    "@grouparoo/mysql": "v0.6.3",
-    "@grouparoo/postgres": "v0.6.3",
-    "@grouparoo/salesforce": "v0.6.3",
-    "@grouparoo/snowflake": "v0.6.3",
-    "@grouparoo/ui-community": "v0.6.3",
-    "@grouparoo/zendesk": "v0.6.3"
+    "@grouparoo/bigquery": "v0.7.0",
+    "@grouparoo/core": "v0.7.0",
+    "@grouparoo/csv": "v0.7.0",
+    "@grouparoo/google-sheets": "v0.7.0",
+    "@grouparoo/hubspot": "v0.7.0",
+    "@grouparoo/logger": "v0.7.0",
+    "@grouparoo/mailchimp": "v0.7.0",
+    "@grouparoo/mysql": "v0.7.0",
+    "@grouparoo/postgres": "v0.7.0",
+    "@grouparoo/salesforce": "v0.7.0",
+    "@grouparoo/snowflake": "v0.7.0",
+    "@grouparoo/ui-community": "v0.7.0",
+    "@grouparoo/zendesk": "v0.7.0"
   },
   "devDependencies": {
-    "@grouparoo/ui-config": "v0.6.3"
+    "@grouparoo/ui-config": "v0.7.0"
   },
   "scripts": {
     "start": "cd node_modules/@grouparoo/core && ./bin/start",
