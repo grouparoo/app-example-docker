@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
+export NODE_ENV="test"
 
 cd "`dirname "$0"`/.."
 
