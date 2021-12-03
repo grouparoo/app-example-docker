@@ -44,9 +44,6 @@
       "@grouparoo/snowflake",
       "@grouparoo/ui-community",
       "@grouparoo/zendesk"
-    ],
-    "includedFiles": [
-      "assets"
     ]
   }
 }
