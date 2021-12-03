@@ -54,15 +54,6 @@ Remember, all environment variables can be changed from their defaults, includin
 
 ⚠️ Note: The example `docker-compose.yml` in this repository has no data persistence and also no load balancing between `grouparoo-web` instances. Do not use in production.
 
-## Demo Docker Compose Deployment
-
-You can quickly demo a Docker Compose Grouparoo deployment via:
-
-```
-curl https://raw.githubusercontent.com/grouparoo/app-example-docker/main/docker-compose.published.yml --output docker-compose.yml
-docker-compose up
-```
-
 ## Deployment with Kubernetes
 
 This examples uses AWS EKS as our Kuberntes cluster.
