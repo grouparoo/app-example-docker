@@ -41,7 +41,6 @@ services:
 
   grouparoo-worker:
     image: grouparoo/local-image
-    depends_on: grouparoo-web
     restart: always
     environment:
       REDIS_URL: redis://redis:6379/0
